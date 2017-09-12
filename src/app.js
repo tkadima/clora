@@ -44,12 +44,11 @@ class App extends React.Component {
         let state = this.state;
         let consultants = this.state.consultants;
 
-        if (state.product) {
-           consultants = consultants.filter(function (c) {
-               console.log(c.skills[0])
-              //return c.skills.includes(state.product.toLowerCase())
-           })
 
+        if (state.product) {
+            consultants = consultants.filter(function (c) {
+                return JSON.stringify(c).includes(state.product.toLowerCase())
+            })
         }
         if (state.experience) {
             consultants = consultants.filter(function (c) {
