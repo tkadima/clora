@@ -91,7 +91,7 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/trimmed_profiles.json" />
-        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/style.scss" />
         <option value="$PROJECT_DIR$/src/ConsultantsList.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -355,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
+    <entry file="file://$PROJECT_DIR$/src/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
